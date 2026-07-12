@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigiPeti - AI Smart Donation Box</title>
+    <meta name="description"
+        content="DigiPeti: AI-Powered Smart Donation Security & Analytics System. Making every cash donation secure, transparent, and accountable.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">Digi<span>Peti</span></div>
+        <div class="menu-toggle" id="mobile-menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#problem">Problem</a></li>
+            <li><a href="#solution">Solution</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#architecture">Architecture</a></li>
+            <li><a href="#hardware">Hardware</a></li>
+            <li><a href="#business">Business Model</a></li>
+            <li><a href="#team">Team</a></li>
+        </ul>
+        <a href="#contact" class="btn-primary">Contact Us</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">Smart<br>Donation Box</h1>
+            <p class="hero-subtitle">Making Every Cash Donation Secure, Transparent & Accountable</p>
+            <div class="hero-actions">
+                <a href="#solution" class="btn-primary btn-large">Discover the Solution</a>
+                <a href="#how-it-works" class="btn-secondary btn-large">How It Works</a>
+            </div>
+        </div>
+        <div class="hero-graphic">
+            <img src="./hero.png" alt="DigiPeti Smart Donation Box" class="hero-img">
+        </div>
+    </header>
+
+    <!-- Problem Statement -->
+    <section class="section problem-section" id="problem">
+        <div class="section-header">
+            <h2>The Trust Gap</h2>
+            <p>DaanPeti - Donation Boxes Run on Faith</p>
+        </div>
+        <div class="grid cards-grid">
+            <div class="card problem-card">
+                <div class="card-icon"><i class="fa-solid fa-lock-open"></i></div>
+                <h3>No Accountability</h3>
+                <p>Once a box is opened, there is no accountability.</p>
+            </div>
+            <div class="card problem-card">
+                <div class="card-icon"><i class="fa-solid fa-triangle-exclamation"></i></div>
+                <h3>No Tamper Alerts</h3>
+                <p>Forced entry or tampering goes unnoticed.</p>
+            </div>
+            <div class="card problem-card">
+                <div class="card-icon"><i class="fa-solid fa-money-bill-wave"></i></div>
+                <h3>Cash Is Vulnerable</h3>
+                <p>Money can go missing during collection or counting.</p>
+            </div>
+            <div class="card problem-card">
+                <div class="card-icon"><i class="fa-solid fa-clipboard-user"></i></div>
+                <h3>No Record of Access</h3>
+                <p>No log of who opened the box, or when.</p>
+            </div>
+            <div class="card problem-card">
+                <div class="card-icon"><i class="fa-solid fa-file-invoice-dollar"></i></div>
+                <h3>No Audit Trail</h3>
+                <p>Manual counting is slow, with nothing to verify it.</p>
+            </div>
+            <div class="card problem-card result-card">
+                <div class="card-icon"><i class="fa-solid fa-building-columns"></i></div>
+                <h3>The Result</h3>
+                <p>Institutions rely on faith in individuals instead of verifiable evidence.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="section solution-section dark-section" id="solution">
+        <div class="section-header text-light">
+            <h2>The Solution: A Smart Vault</h2>
+            <p>Replacing blind trust with verifiable evidence.</p>
+        </div>
+        <div class="solution-container">
+            <div class="solution-feature" data-aos="fade-up">
+                <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                <div class="feature-content">
+                    <h3>Physical Security</h3>
+                    <p>Hardened physical lock with tamper-resistant enclosure that prevents unauthorized access and
+                        protects every donation.</p>
+                </div>
+            </div>
+            <div class="solution-feature" data-aos="fade-up" data-aos-delay="100">
+                <div class="feature-icon"><i class="fa-solid fa-video"></i></div>
+                <div class="feature-content">
+                    <h3>Monitoring</h3>
+                    <p>Sensor-based monitoring with motion detection captures every access event and provides visual
+                        verification.</p>
+                </div>
+            </div>
+            <div class="solution-feature" data-aos="fade-up" data-aos-delay="200">
+                <div class="feature-icon"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+                <div class="feature-content">
+                    <h3>Audit Trail</h3>
+                    <p>Cloud-based audit log with tamper-evident records of every access event.</p>
+                </div>
+            </div>
+        </div>
+        <div class="core-objective">
+            <h3>Core Objective</h3>
+            <p>Secure every donation from the moment it enters the box until it reaches the institution — replacing
+                blind trust with verifiable evidence.</p>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="section steps-section" id="how-it-works">
+        <div class="section-header">
+            <h2>How It Works</h2>
+            <p>From request to dashboard - a seamless, secure flow.</p>
+        </div>
+        <div class="timeline">
+            <div class="timeline-step">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                    <h3>Request Access</h3>
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                </div>
+            </div>
+            <div class="timeline-step">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                    <h3>OTP + Dual Approval</h3>
+                    <i class="fa-solid fa-user-check"></i>
+                </div>
+            </div>
+            <div class="timeline-step">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                    <h3>Smart Lock Opens</h3>
+                    <i class="fa-solid fa-unlock-keyhole"></i>
+                </div>
+            </div>
+            <div class="timeline-step">
+                <div class="step-number">4</div>
+                <div class="step-content">
+                    <h3>AI Monitoring</h3>
+                    <i class="fa-solid fa-camera"></i>
+                </div>
+            </div>
+            <div class="timeline-step">
+                <div class="step-number">5</div>
+                <div class="step-content">
+                    <h3>Cash Collection</h3>
+                    <i class="fa-solid fa-hand-holding-dollar"></i>
+                </div>
+            </div>
+            <div class="timeline-step">
+                <div class="step-number">6</div>
+                <div class="step-content">
+                    <h3>Cloud Sync</h3>
+                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                </div>
+            </div>
+            <div class="timeline-step">
+                <div class="step-number">7</div>
+                <div class="step-content">
+                    <h3>Dashboard & Reports</h3>
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Architecture Section -->
+    <section class="section architecture-section bg-light" id="architecture">
+        <div class="section-header">
+            <h2>Core Architecture</h2>
+            <p>Three Layers, One Chain of Custody</p>
+        </div>
+        <div class="arch-tabs">
+            <div class="arch-tab active" data-target="physical">
+                <i class="fa-solid fa-box-open"></i> Physical Layer
+            </div>
+            <div class="arch-tab" data-target="edge">
+                <i class="fa-solid fa-microchip"></i> Edge AI Layer
+            </div>
+            <div class="arch-tab" data-target="cloud">
+                <i class="fa-solid fa-cloud"></i> Cloud Platform
+            </div>
+        </div>
+        <div class="arch-content-container">
+            <div class="arch-content active" id="physical">
+                <ul class="feature-list">
+                    <li><i class="fa-solid fa-check text-accent"></i> Smart Lock</li>
+                    <li><i class="fa-solid fa-check text-accent"></i> Dual Auth / OTP</li>
+                    <li><i class="fa-solid fa-check text-accent"></i> Tamper Sensors</li>
+                </ul>
+            </div>
+            <div class="arch-content" id="edge">
+                <ul class="feature-list">
+                    <li><i class="fa-solid fa-check text-accent"></i> Sensor</li>
+                    <li><i class="fa-solid fa-check text-accent"></i> Motion & Person Detection</li>
+                    <li><i class="fa-solid fa-check text-accent"></i> Anomaly Detection</li>
+                </ul>
+            </div>
+            <div class="arch-content" id="cloud">
+                <ul class="feature-list">
+                    <li><i class="fa-solid fa-check text-accent"></i> Dashboard</li>
+                    <li><i class="fa-solid fa-check text-accent"></i> Role-Based Access</li>
+                    <li><i class="fa-solid fa-check text-accent"></i> Alerts & Reports</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hardware Modules Section -->
+    <section class="section hardware-section dark-section" id="hardware">
+        <div class="section-header text-light">
+            <h2>Core Hardware Architecture</h2>
+            <p>Translating features into a physical prototype.</p>
+        </div>
+        <div class="grid hardware-grid">
+            <div class="hw-card card">
+                <div class="hw-icon"><i class="fa-solid fa-microchip"></i></div>
+                <h3>Processing & AI</h3>
+                <div class="hw-details">
+                    <div class="hw-item">
+                        <strong>Main MCU</strong>
+                        <span>STM32WB series or ESP32-S3 for low-power, high-performance computing.</span>
+                    </div>
+                    <div class="hw-item">
+                        <strong>AI Accelerator</strong>
+                        <span>Syntiant NDP or ESP32-S3 vector instructions for local anomaly detection.</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hw-card card">
+                <div class="hw-icon"><i class="fa-solid fa-shield-virus"></i></div>
+                <h3>Security & Sensing</h3>
+                <div class="hw-details">
+                    <div class="hw-item">
+                        <strong>IMU Sensor</strong>
+                        <span>MPU6050 / LIS3DH to detect tilting, lifting, or shaking.</span>
+                    </div>
+                    <div class="hw-item">
+                        <strong>Door Sensor</strong>
+                        <span>Magnetic reed / micro-limit switch to log exact access times.</span>
+                    </div>
+                    <div class="hw-item">
+                        <strong>Donation Sensor</strong>
+                        <span>Load Cell + HX711 to translate weight into cash accumulation estimates.</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hw-card card">
+                <div class="hw-icon"><i class="fa-solid fa-satellite-dish"></i></div>
+                <h3>Connectivity & Access</h3>
+                <div class="hw-details">
+                    <div class="hw-item">
+                        <strong>GSM/LTE Module</strong>
+                        <span>SIM7600 series 4G LTE for remote cloud syncing & SMS alerts.</span>
+                    </div>
+                    <div class="hw-item">
+                        <strong>Solenoid Lock</strong>
+                        <span>12V physical barrier released only via dynamic digital unlock key.</span>
+                    </div>
+                    <div class="hw-item">
+                        <strong>Local Interface</strong>
+                        <span>OLED Display (SSD1306) + Matrix Keypad or Fingerprint Reader.</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hw-card card">
+                <div class="hw-icon"><i class="fa-solid fa-battery-half"></i></div>
+                <h3>Power Management</h3>
+                <div class="hw-details">
+                    <div class="hw-item">
+                        <strong>Battery Pack</strong>
+                        <span>3.7V Li-ion or LiFePO4 (e.g., 18650 cells in parallel).</span>
+                    </div>
+                    <div class="hw-item">
+                        <strong>Charging Circuit</strong>
+                        <span>TP4056 or MPPT solar controller linked to a 5V/12V Solar Panel.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Differentiators & Market -->
+    <section class="section market-section">
+        <div class="section-header">
+            <h2>Why DigiPeti?</h2>
+            <p>Bridging the physical and digital worlds.</p>
+        </div>
+
+        <div class="market-split">
+            <div class="market-text">
+                <p>Over 2.5 million charitable and religious institutions across India handle cash donations without
+                    digital oversight — a massive gap for innovation.</p>
+                <p>While most platforms focus on online donations, <strong>DigiPeti</strong> modernizes the vast offline
+                    donation ecosystem by converting traditional donation boxes into intelligent, AI-powered smart
+                    donation boxes. This bridges the gap between physical cash donations and digital management through
+                    real-time insights and connected technology.</p>
+                <div class="target-market">
+                    <h3>Target Customers</h3>
+                    <div class="chip-container">
+                        <span class="chip">Religious Institutions</span>
+                        <span class="chip">NGOs & Charitable Trusts</span>
+                        <span class="chip">Educational Institutions</span>
+                        <span class="chip">Hospitals & Healthcare Funds</span>
+                        <span class="chip">Community Organisations</span>
+                        <span class="chip">Public Donation Campaigns</span>
+                    </div>
+                </div>
+            </div>
+            <div class="differentiators-grid">
+                <div class="diff-item">Donation Analytics</div>
+                <div class="diff-item">AI Recognition</div>
+                <div class="diff-item">Dashboard</div>
+                <div class="diff-item">Dual Authentication</div>
+                <div class="diff-item">Cloud Reporting</div>
+                <div class="diff-item">Tamper Detection</div>
+                <div class="diff-item">Fraud Alerts</div>
+                <div class="diff-item">Audit Logs</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section class="section impact-section dark-section">
+        <div class="section-header text-light">
+            <h2>Socio-Economic Impact</h2>
+            <p>Driving Transparency & Trust</p>
+        </div>
+        <div class="grid impact-grid">
+            <div class="impact-card">
+                <h3>Donor Trust</h3>
+                <p>Transparency will build confidence in giving.</p>
+            </div>
+            <div class="impact-card">
+                <h3>Theft Reduction</h3>
+                <p>Secure hardware will minimise cash mishandling.</p>
+            </div>
+            <div class="impact-card">
+                <h3>Monitoring</h3>
+                <p>AI-powered Sensor motion detection.</p>
+            </div>
+            <div class="impact-card">
+                <h3>Accountability</h3>
+                <p>Automated records will ensure audit readiness.</p>
+            </div>
+            <div class="impact-card">
+                <h3>Operational Efficiency</h3>
+                <p>It will eliminate manual counting and reporting effort.</p>
+            </div>
+            <div class="impact-card">
+                <h3>Better Governance</h3>
+                <p>It will support Digital India and transparent ecosystems.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Model -->
+    <section class="section business-section" id="business">
+        <div class="section-header">
+            <h2>Business Model</h2>
+            <p>Scalable Revenue Streams</p>
+        </div>
+        <div class="pricing-cards">
+            <div class="pricing-card">
+                <div class="pricing-icon"><i class="fa-solid fa-box"></i></div>
+                <h3>Hardware</h3>
+                <p>DigiPeti installation for institutions with core smart donation and security features.</p>
+            </div>
+            <div class="pricing-card">
+                <div class="pricing-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                <h3>AMC</h3>
+                <p>Annual maintenance contract for device upkeep, repairs, and priority support.</p>
+            </div>
+            <div class="pricing-card">
+                <div class="pricing-icon"><i class="fa-solid fa-puzzle-piece"></i></div>
+                <h3>Add-Ons</h3>
+                <p>Premium Analytics: Optional add-on offering risk scoring and deeper donation insights to deliver
+                    additional value for institutions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="section team-section bg-light" id="team">
+        <div class="section-header">
+            <h2>Our Team</h2>
+            <p>The minds behind DigiPeti</p>
+        </div>
+        <div class="team-grid">
+            <div class="team-card">
+                <div class="avatar"><i class="fa-solid fa-user-tie"></i></div>
+                <h3>Yuvraj Singh</h3>
+                <div class="role">Founder</div>
+                <p>Computer Science undergraduate building backend systems, AI-powered applications, and practical
+                    software solutions.</p>
+            </div>
+            <div class="team-card">
+                <div class="avatar"><i class="fa-solid fa-laptop-code"></i></div>
+                <h3>Atul Kumar Singh</h3>
+                <div class="role">Technology Specialist</div>
+                <p>IT Professional with 7+ years of experience in software development, cloud technologies, and AI/ML,
+                    currently pursuing an Executive MBA in Analytics.</p>
+            </div>
+            <div class="team-card">
+                <div class="avatar"><i class="fa-solid fa-user-gear"></i></div>
+                <h3>Jayesh Kumar Singh</h3>
+                <div class="role">Co-Founder</div>
+                <p>Computer Engineering undergraduate developing backend solutions, AI-driven technologies, and
+                    innovative software products.</p>
+            </div>
+            <div class="team-card">
+                <div class="avatar"><i class="fa-solid fa-user-graduate"></i></div>
+                <h3>Sangeeta Singh</h3>
+                <div class="role">Mentor</div>
+                <p>IT professional with 16+ years of experience in software development, automation, and enterprise
+                    project delivery. Certified CSM® and PMP® with strong expertise in Agile methodologies, .NET
+                    technologies, RPA, stakeholder management, risk mitigation, and leading global cross-functional
+                    teams.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer class="footer" id="contact">
+        <div class="footer-content">
+            <h2>Digi<span>Peti</span></h2>
+            <p class="tagline">Let's Build Trust Together</p>
+            <div class="contact-info">
+                <a href="mailto:digipeti05@gmail.com"><i class="fa-solid fa-envelope"></i> digipeti05@gmail.com</a>
+                <a href="tel:+917007986529"><i class="fa-solid fa-phone"></i> +91-7007986529</a>
+            </div>
+            <div class="stage-badge">
+                <strong>Current Stage:</strong> Ideation Stage <br>
+                <span>Seeking seed funding to validate the problem and develop the prototype.</span>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2026 DigiPeti. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
